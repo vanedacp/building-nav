@@ -1,4 +1,4 @@
-/* global styles */
+/* Global Styles */
 /*.box{
     height: 100px;
     width: 200px;
@@ -34,10 +34,10 @@
     float: right;
     clear: right;
 }*/
-/* end global styles */
+/* End of Global Styles */
 
 
-/* Nav styles */
+/* Nav Styles */
 .main-nav {
     height: 73px;
     background-color: black;
@@ -76,4 +76,26 @@ li:hover {
 }
 
 
-/* End Nav styles */
+/* End of Nav Styles */
+
+/* Content Styles */
+.content {
+    height: 84vh;
+}
+/* End of Content Styles */
+/* Footer Styles */
+.footer {
+    background-color: brown;
+}
+
+.social-media {
+    height: 50px;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+/* End of Footer Styles */
