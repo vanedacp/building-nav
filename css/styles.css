@@ -80,7 +80,21 @@ li:hover {
 
 /* Content Styles */
 .content {
-    height: 84vh;
+    height: 100vh;
+    padding: 0 50px;
+}
+
+.audio {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.video {
+    margin: 0 auto;
+    display: block;
+}
+.video-frame {
+    width: 560px;
 }
 /* End of Content Styles */
 
