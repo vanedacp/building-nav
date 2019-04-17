@@ -1,0 +1,118 @@
+/* Global Styles */
+/*.box{
+    height: 100px;
+    width: 200px;
+}
+
+
+.red{
+    background-color: red;
+    float: left;
+}
+
+.green{
+    background-color: green;
+    float: right;
+}
+.blue{
+    background-color: blue;
+    float: left;
+    clear: right;
+}
+.purple{
+    background-color: purple;
+    float: right;
+    clear: right;
+}
+.yellow{
+    background-color: yellow;
+    float: left;
+    clear: left;
+}
+.orange{
+    background-color: orange;
+    float: right;
+    clear: right;
+}*/
+/* End of Global Styles */
+
+
+/* Nav Styles */
+.main-nav {
+    height: 73px;
+    background-color: black;
+}
+
+/* .main-nav:hover {} */
+
+.logo {
+    height: 56px;
+    padding: 10px;
+}
+
+.logo:hover {
+    height: 60px;
+    padding: 6px 10px;
+}
+
+.nav-list {
+    float: right;
+    list-style-type: none;
+}
+
+li {
+    color: #fff;
+    float: left;
+    padding: 14px 16px 18px 20px;
+}
+
+li:hover {
+    font-size: 30px;
+    padding: 5px 16px;
+}
+
+.center {
+    text-align: center;
+}
+
+
+/* End of Nav Styles */
+
+/* Content Styles */
+.content {
+    height: 100vh;
+    padding: 0 50px;
+}
+
+.audio {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.video {
+    margin: 0 auto;
+    display: block;
+}
+.video-frame {
+    width: 560px;
+}
+
+
+/* End of Content Styles */
+
+/* Footer Styles */
+.footer {
+    background-color: brown;
+}
+
+.social-media {
+    height: 50px;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+/* End of Footer Styles */
