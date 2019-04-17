@@ -103,7 +103,6 @@ li:hover {
     width: 560px;
 }
 
- oocss
 .margin-0-auto {
     margin: 0 auto;
 }
@@ -134,7 +133,6 @@ li:hover {
 .button-small {
     width: 150px;
 }
- develop
 
 /* End of Content Styles */
 
@@ -154,3 +152,24 @@ a {
     text-decoration: none;
 }
 /* End of Footer Styles */
+
+/* all devices with screen width <= 768px */
+@media (max-width: 768px) {
+    .button {
+        font-size: 10px;
+    }
+}
+
+/* screen size = 1024px */
+@media (min-width: 1024px) and (max-width: 1024px) {
+    .button {
+        font-size: 20px;
+    }
+}
+
+/* between 768px to 1024px, set font-size = 22px */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .button {
+        font-size: 22statuspx;
+    }
+}
